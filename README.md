@@ -1,5 +1,7 @@
 # China OSS Tour — Vue.js
+
 # 中国开源之旅 —— Vue.js
+
 #이름  두안보화이
 
 #학번  23214726
@@ -8,9 +10,11 @@
 
 ## 1. Project Introduction | 项目简介
 #**English**
+
 #Vue.js is a progressive frontend framework created by Chinese developer Evan You. It is widely used around the world for its simplicity, flexibility, and complete ecosystem. It is one of the most influential open-source projects from China.
 
 #Vue.js 是由中国开发者尤雨溪创建的渐进式前端框架，以简洁、灵活、生态完善著称，被全球大量企业与开发者使用，是中国最具影响力的开源项目之一。
+
 ## 2. Why I Chose This Project | 选择理由
 
 #Vue is a typical and high-quality Chinese open-source project with a healthy community, clear documentation, and active maintenance. It is very suitable for learning Git and open-source collaboration.
