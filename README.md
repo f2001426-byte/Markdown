@@ -21,7 +21,7 @@
 
 #Vue 是典型且优质的中国开源项目，社区健康、文档清晰、维护活跃，非常适合练习 Git 操作与理解开源协作模式。
 
-## 3. Task 1: Clone and First Look | 任务一：克隆与初探
+##Task 1: Clone and First Look | 任务一：克隆与初探
 
 #Total commits: About 3,300
 First commit: 2013-07-13, Evan You, "initial commit"
