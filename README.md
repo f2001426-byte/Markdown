@@ -40,7 +40,7 @@ git log --reverse --oneline | head -5
 du -sh .git
 ls -la
   
-Task 2: Meet the Community | 任务二：认识社区
+##Task 2: Meet the Community | 任务二：认识社区
 English
 • Top 15 contributors: Evan You, Eduardo San Martin Morote, Rahim Alizada, LinusBorg, etc.
 • Commits in last 6 months: More than 100 (active)
@@ -54,7 +54,7 @@ English
 git shortlog -sn | head -15
 git log --since="6 months ago" --oneline | wc -l
   
-Task 3: Reading One Commit | 任务三：读懂一次提交
+##Task 3: Reading One Commit | 任务三：读懂一次提交
 English
   • Commit hash: 1a2b3c4d (example: fix reactivity for object properties)
   • Reason: It fixes a common reactivity bug that many developers may encounter.
@@ -69,7 +69,7 @@ English
   git show <commit-hash>
   git show <commit-hash> --stat
   
-  Task 4: Health Checkup | 任务四：健康检查
+  ##Task 4: Health Checkup | 任务四：健康检查
   #	Signal (EN)	信号 (ZH)	Status	Reason
   1	Recent commits within 6 months	近6个月有提交		Very active in recent months
   2	Maintainers reply to issues	维护者回复issue		Team members reply quickly
@@ -80,13 +80,13 @@ English
   7	tests folder + CI	测试与CI	 Full test suite and GitHub Actions
   8	CONTRIBUTING.md exists	贡献指南 	Clear contribution guide
   
-  Task 5: Reflection | 任务五：反思
+  ##Task 5: Reflection | 任务五：反思
   English 
   What surprised me most about Vue is that it started from an individual developer and grew into a world-class framework used by millions. It fully follows global open-source conventions: clear LICENSE, complete documentation, active community, and standardized contribution processes. At the same time, it has Chinese characteristics: friendly to Chinese developers, complete Chinese documents, and a design style that pursues simplicity and ease of use. If I make my first contribution, I will help translate documents, fix small typos, improve example code, or submit simple bug reports. This exploration made me realize the importance of open-source spirit and the growing influence of Chinese open-source projects in the world.
 中文 
 Vue 最让我惊讶的是它从个人开发者起步，成长为全球数百万开发者使用的顶级框架。它完全遵循全球开源规范：拥有明确的开源协议、完善的文档、活跃的社区与标准化的贡献流程。同时它也具有中国特色：对中文开发者友好、中文文档齐全、设计风格追求简洁易用。如果我进行第一次贡献，我会帮助翻译文档、修正错别字、完善示例代码或提交简单的 bug 报告。这次探索让我深刻理解开源精神的重要性，也看到中国开源项目在全球的影响力不断提升。
  
- Commands Reference | 命令参考
+ ##Commands Reference | 命令参考
  git clone https://github.com/vuejs/vue.git
 cd vue
 git log --oneline | wc -l
